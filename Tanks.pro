@@ -14,9 +14,15 @@ DEPENDPATH += "SFML-2.5.1\include"
 
 SOURCES += main.cpp \
     movingobj.cpp \
+    player.cpp \
+    bullet.cpp \
+    enemy.cpp
 
 
 HEADERS += \
     object.h \
     movingobj.h \
-    stationaryobj.h
+    stationaryobj.h \
+    player.h \
+    bullet.h \
+    enemy.h
