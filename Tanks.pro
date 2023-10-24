@@ -14,8 +14,10 @@ DEPENDPATH += "SFML-2.5.1\include"
 
 SOURCES += main.cpp \
     screens.cpp \
-    record.cpp
+    record.cpp \
+    listofrecords.cpp
 
 HEADERS += \
     screens.h \
-    record.h
+    record.h \
+    listofrecords.h
