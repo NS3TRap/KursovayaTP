@@ -26,7 +26,8 @@ SOURCES += main.cpp \
     base.cpp \
     metalwall.cpp \
     outputrecordsscreen.cpp \
-    inputrecordscreen.cpp
+    inputrecordscreen.cpp \
+    mapselectionscreen.cpp
 
 HEADERS += \
     screens.h \
@@ -44,4 +45,5 @@ HEADERS += \
     base.h \
     metalwall.h \
     outputrecordsscreen.h \
-    inputrecordscreen.h
+    inputrecordscreen.h \
+    mapselectionscreen.h
