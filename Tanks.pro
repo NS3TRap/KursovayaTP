@@ -46,4 +46,5 @@ HEADERS += \
     metalwall.h \
     outputrecordsscreen.h \
     inputrecordscreen.h \
-    mapselectionscreen.h
+    mapselectionscreen.h \
+    gamescreen.h
