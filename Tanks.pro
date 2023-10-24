@@ -27,7 +27,9 @@ SOURCES += main.cpp \
     metalwall.cpp \
     outputrecordsscreen.cpp \
     inputrecordscreen.cpp \
-    mapselectionscreen.cpp
+    mapselectionscreen.cpp \
+    gamescreen.cpp \
+    gamescreencontrol.cpp
 
 HEADERS += \
     screens.h \
