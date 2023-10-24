@@ -17,11 +17,27 @@ SOURCES += main.cpp \
     userinterfacescreen.cpp \
     record.cpp \
     listofrecords.cpp \
-    map.cpp
+    map.cpp \
+    movingobj.cpp \
+    player.cpp \
+    bullet.cpp \
+    enemy.cpp \
+    brickwall.cpp \
+    base.cpp \
+    metalwall.cpp
 
 HEADERS += \
     screens.h \
     userinterfacescreen.h \
     record.h \
     listofrecords.h \
-    map.h
+    map.h \
+    object.h \
+    movingobj.h \
+    stationaryobj.h \
+    player.h \
+    bullet.h \
+    enemy.h \
+    brickwall.h \
+    base.h \
+    metalwall.h
