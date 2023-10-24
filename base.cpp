@@ -17,7 +17,8 @@ void Base::changeHealth(){
 }
 
 void Base::changeHealth(int i){
-    health -= i;
+    health -= 1;
+    i = 0;
 }
 
 float Base::getX(){
