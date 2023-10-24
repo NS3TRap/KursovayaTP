@@ -16,8 +16,10 @@ SOURCES += main.cpp \
     movingobj.cpp \
     player.cpp \
     bullet.cpp \
-    enemy.cpp
-
+    enemy.cpp \
+    brickwall.cpp \
+    base.cpp \
+    metalwall.cpp
 
 HEADERS += \
     object.h \
@@ -25,4 +27,8 @@ HEADERS += \
     stationaryobj.h \
     player.h \
     bullet.h \
-    enemy.h
+    enemy.h \
+    brickwall.h \
+    base.h \
+    metalwall.h
+
