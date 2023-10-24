@@ -25,7 +25,8 @@ SOURCES += main.cpp \
     brickwall.cpp \
     base.cpp \
     metalwall.cpp \
-    outputrecordsscreen.cpp
+    outputrecordsscreen.cpp \
+    inputrecordscreen.cpp
 
 HEADERS += \
     screens.h \
@@ -42,4 +43,5 @@ HEADERS += \
     brickwall.h \
     base.h \
     metalwall.h \
-    outputrecordsscreen.h
+    outputrecordsscreen.h \
+    inputrecordscreen.h
