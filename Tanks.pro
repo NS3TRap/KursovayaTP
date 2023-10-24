@@ -12,8 +12,10 @@ CONFIG(debug, debug|release):   LIBS += -lflac -lsfml-audio -lsfml-graphics -lsf
 INCLUDEPATH += "SFML-2.5.1\include"
 DEPENDPATH += "SFML-2.5.1\include"
 
-SOURCES += main.cpp
+SOURCES += main.cpp \
+    movingobj.cpp \
 
 
 HEADERS += \
-    object.h
+    object.h \
+    movingobj.h
