@@ -5,7 +5,7 @@ using namespace sf;
 using namespace std;
 
 UserInterfaceScreen::UserInterfaceScreen(){
-//###############################-ТЕКСТ-##############################################################################################
+//###############################-ТЕКСТ-###########################
     // Окно
     win = new RenderWindow(VideoMode(400,400), "SFML", Style::Fullscreen); //указатель на окно
     win->setFramerateLimit(50); //FPS = 60
@@ -26,7 +26,7 @@ UserInterfaceScreen::UserInterfaceScreen(){
     creatorsText = Text("Creators:\nNikita Sorokin\nFedor Safronov\nAnna Kemova\nSemen Zabirohin\nAnton Gubar",font);
     creatorsText.setCharacterSize(20);
     creatorsText.setPosition(centralPosition.x * 2 - label2.getGlobalBounds().width + 50, 10);
-//###############################-КНОПКИ-############################################################################################
+//###############################-КНОПКИ-############################
     // Текст кнопок
     textBS = Text("Start game", font);
     textBS.setCharacterSize(40);
@@ -92,7 +92,7 @@ void UserInterfaceScreen::interact(){
         while (win->pollEvent(ev)) {
             if(ev.type == Event::Closed)
                 win->close();
-//##################################-ОБРАБОТКА-КЛАВИШ-#################################################################################
+//##################################-ОБРАБОТКА-КЛАВИШ-#######################
             else if(ev.type == Event::KeyReleased){
                 if(ev.key.code == Keyboard::Down){
                     if(choice == 3)
@@ -126,7 +126,7 @@ void UserInterfaceScreen::interact(){
                 changeColor(choice);
             }
         }
-//##################################-ОТРИСОВКА-ОБЪЕКТОВ-#################################################################################
+//##################################-ОТРИСОВКА-ОБЪЕКТОВ-######################
         win->clear();
         win->draw(label);
         win->draw(label2);
