@@ -13,3 +13,7 @@ INCLUDEPATH += "SFML-2.5.1\include"
 DEPENDPATH += "SFML-2.5.1\include"
 
 SOURCES += main.cpp
+
+
+HEADERS += \
+    object.h
