@@ -18,4 +18,5 @@ SOURCES += main.cpp \
 
 HEADERS += \
     object.h \
-    movingobj.h
+    movingobj.h \
+    stationaryobj.h
