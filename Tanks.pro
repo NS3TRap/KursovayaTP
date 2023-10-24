@@ -13,7 +13,9 @@ INCLUDEPATH += "SFML-2.5.1\include"
 DEPENDPATH += "SFML-2.5.1\include"
 
 SOURCES += main.cpp \
-    screens.cpp
+    screens.cpp \
+    record.cpp
 
 HEADERS += \
-    screens.h
+    screens.h \
+    record.h
