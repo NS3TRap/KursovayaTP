@@ -14,11 +14,13 @@ DEPENDPATH += "SFML-2.5.1\include"
 
 SOURCES += main.cpp \
     movingobj.cpp \
-    brickwall.cpp
+    brickwall.cpp \
+    base.cpp
 
 
 HEADERS += \
     object.h \
     movingobj.h \
     stationaryobj.h \
-    brickwall.h
+    brickwall.h \
+    base.h
