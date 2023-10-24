@@ -1,9 +1,9 @@
-#include <iostream>
+#include <userinterfacescreen.h>
 
-using namespace std;
-
-int main(int argc, char *argv[])
+int main()
 {
-    cout << "Hello World!" << endl;
+    UserInterfaceScreen* uis = new UserInterfaceScreen();
+    uis->interact();
+    delete uis;
     return 0;
 }
