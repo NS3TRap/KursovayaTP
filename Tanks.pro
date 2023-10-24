@@ -14,8 +14,12 @@ DEPENDPATH += "SFML-2.5.1\include"
 
 SOURCES += main.cpp \
     screens.cpp \
-    userinterfacescreen.cpp
+    userinterfacescreen.cpp \
+    record.cpp \
+    listofrecords.cpp
 
 HEADERS += \
     screens.h \
-    userinterfacescreen.h
+    userinterfacescreen.h \
+    record.h \
+    listofrecords.h
