@@ -16,10 +16,12 @@ SOURCES += main.cpp \
     screens.cpp \
     userinterfacescreen.cpp \
     record.cpp \
-    listofrecords.cpp
+    listofrecords.cpp \
+    map.cpp
 
 HEADERS += \
     screens.h \
     userinterfacescreen.h \
     record.h \
-    listofrecords.h
+    listofrecords.h \
+    map.h
